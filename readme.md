@@ -19,3 +19,7 @@ going on when you should be using oAuth properly.
 ## How?
 This script is designed to be used in conjunction with an AJAX request.
 A jQuery ```$.post('twatAuth.php')``` request is a a great way of requesting tweets from the script.
+
+## Why the name?
+Because really, this script isn't the greatest. It's really basic, only covers retrieval from your own timeline
+etc etc... There are much better scripts out there, but they are slower to implement.
