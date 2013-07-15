@@ -1,4 +1,4 @@
-# TwatAuth v0.1
+# TwatAuth v0.1.1
 
 ## Pre-requisites
 You'll need to sort out all of your oAuth tokens before you use the script. The short version of that is
