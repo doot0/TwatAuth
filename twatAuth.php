@@ -1,10 +1,10 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-    define('OAUTH_TOKEN', 'YOUR OAUTH TOKEN');
-    define('OAUTH_SECRET', 'YOUR OAUTH SECRET');
     define('CONSUMER_KEY', 'YOUR CONSUMER KEY');
     define('CONSUMER_SECRET', 'YOUR CONSUMER SECRET');
+    define('OAUTH_TOKEN', 'YOUR OAUTH TOKEN');
+    define('OAUTH_SECRET', 'YOUR OAUTH SECRET');
 
     $oauth_hash = '';
     $oauth_hash .= 'oauth_consumer_key=' . CONSUMER_KEY . '&';
