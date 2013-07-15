@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $oauth_header .= 'oauth_token="' . OAUTH_TOKEN . '", ';
     $oauth_header .= 'oauth_version="1.0", ';
 
-    $curl_header = array("Authorization: Oauth {$oauth_header}", 'Expect:');
+    $curl_header = array("Authorization: Oauth {$oauth_header}");
     $curl_request = curl_init();
 
     curl_setopt($curl_request, CURLOPT_HTTPHEADER, $curl_header);
