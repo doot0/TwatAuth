@@ -7,7 +7,7 @@ You'll need to sort out all of your oAuth tokens before you use the script. The 
 2. Create an app in your timeline's name
 3. Create your tokens inside the UI twitter provides
 
-I wrote a blog post outlining the process a bit better here: <a href="http://blog.doot0.co.uk/blog/2013/06/14/how-to-get-your-tweet-timeline-with-oauth-plus-php/">http://blog.doot0.co.uk/blog/2013/06/14/how-to-get-your-tweet-timeline-with-oauth-plus-php/</a>
+~~I wrote a blog post outlining the process a bit better here: <a href="http://blog.doot0.co.uk/blog/2013/06/14/how-to-get-your-tweet-timeline-with-oauth-plus-php/">http://blog.doot0.co.uk/blog/2013/06/14/how-to-get-your-tweet-timeline-with-oauth-plus-php/</a>~~ (blog offline)
 
 ## What?
 TwatAuth is a fairly crude way of retrieving your timeline of tweets using version 1.1 of Twitter's API.
